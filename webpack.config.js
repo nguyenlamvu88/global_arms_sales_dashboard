@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
-    publicPath: '/', // Ensure assets are referenced from the root
+    publicPath: '/global_arms_sales_dashboard/', // Ensure assets are referenced from the root
   },
   module: {
     rules: [
